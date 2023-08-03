@@ -194,30 +194,29 @@ footer span {
  
 @media all and (min-width: 1200px) {
     /* Desktop styles here */
-		.bottom-section .content-wrapper {
-			justify-content: space-evenly;
+		body {
+			font-size: 1em;
 		}
-		
-		.section-one,
-		.section-two,
-		.section-three {
-			box-sizing: border-box;
+
+		header .content-wrapper {
+			justify-content: space-between;
+			align-items: center;
+			padding: 20px 0;
 		}
-		
-		.section-one {
-			/*width: 29%;*/
-			width: 100%;
+
+		header h1 {
+			width: 30%;
+			padding: 0;
+			border-bottom: none;
+			text-align: left;
 		}
-		
-		.section-two {
-			/*width: 42%;*/
-			width: 100%;
-			border-top: 5px solid #EEE;
-			border-bottom: 5px solid #EEE;
+
+		header nav {
+			width: 21%;
 		}
-		
-		.section-three {
-			/*width: 29%;*/
-			width: 100%;
+
+		header nav ul {
+			display: flex;
+			justify-content: space-between;
 		}
 }
